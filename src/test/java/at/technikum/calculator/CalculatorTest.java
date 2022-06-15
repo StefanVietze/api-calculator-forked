@@ -39,4 +39,17 @@ class CalculatorTest {
         // assert
         assertEquals(6, result);
     }
+
+    @Test
+    void multiplicationError() {
+        // arrange
+        int a = 3;
+        int b = 3;
+
+        // act
+        int result = calc.multiply(a, b);
+
+        // assert
+        assertEquals(6, result);
+    }
 }
